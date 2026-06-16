@@ -1,0 +1,24 @@
+name: voice_changer_grok
+
+description: Voice Changer with ElevenLabs API - Amr Diab, Fayrouz, etc.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  record: ^5.1.0
+  just_audio: ^0.9.36
+  http: ^1.2.0
+  path_provider: ^2.1.0
+  provider: ^6.1.0
+  permission_handler: ^11.0.0
+  fluttertoast: ^8.2.8
+
+flutter:
+  uses-material-design: true
